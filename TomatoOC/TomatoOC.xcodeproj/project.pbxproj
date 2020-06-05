@@ -7,21 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D8586A4248A1BC300681D87 /* FQNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586A3248A1BC300681D87 /* FQNavigationController.m */; };
+		9D8586A7248A1BD700681D87 /* FQTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586A6248A1BD700681D87 /* FQTabBarViewController.m */; };
+		9D8586AA248A1CA500681D87 /* JiChuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586A9248A1CA500681D87 /* JiChuVC.m */; };
+		9D8586AD248A1CC300681D87 /* DemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586AC248A1CC300681D87 /* DemoVC.m */; };
+		9D8586B0248A1CD800681D87 /* GongJuVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586AF248A1CD800681D87 /* GongJuVC.m */; };
+		9D8586B3248A1CEA00681D87 /* GeRenVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586B2248A1CEA00681D87 /* GeRenVC.m */; };
+		9D8586B7248A22C800681D87 /* UIColor+FQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586B5248A22C800681D87 /* UIColor+FQAdd.m */; };
+		9D8586BA248A24F400681D87 /* jichu.json in Resources */ = {isa = PBXBuildFile; fileRef = 9D8586B9248A24F400681D87 /* jichu.json */; };
+		9D8586BD248A272D00681D87 /* DuiXiangBenZhiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586BC248A272D00681D87 /* DuiXiangBenZhiVC.m */; };
+		9D8586C0248A29F500681D87 /* NSData+FQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586BF248A29F500681D87 /* NSData+FQAdd.m */; };
+		9D8586C3248A2B2400681D87 /* NSObject+FQAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586C2248A2B2400681D87 /* NSObject+FQAdd.m */; };
+		9D8586C6248A322500681D87 /* JiChuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586C5248A322500681D87 /* JiChuCell.m */; };
 		9D87D6312489F38C00AAB9FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D6302489F38C00AAB9FC /* AppDelegate.m */; };
-		9D87D6342489F38C00AAB9FC /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D6332489F38C00AAB9FC /* SceneDelegate.m */; };
 		9D87D6372489F38C00AAB9FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D6362489F38C00AAB9FC /* ViewController.m */; };
 		9D87D63A2489F38C00AAB9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D87D6382489F38C00AAB9FC /* Main.storyboard */; };
 		9D87D63C2489F38D00AAB9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D87D63B2489F38D00AAB9FC /* Assets.xcassets */; };
 		9D87D63F2489F38D00AAB9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D87D63D2489F38D00AAB9FC /* LaunchScreen.storyboard */; };
 		9D87D6422489F38D00AAB9FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D6412489F38D00AAB9FC /* main.m */; };
+		9D87D654248A077B00AAB9FC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D652248A077B00AAB9FC /* UIView+Extension.m */; };
+		9DBEC90F248A17A50065362F /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEC90D248A17A40065362F /* BaseVC.m */; };
+		9DBEC914248A181F0065362F /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEC910248A181E0065362F /* BaseTableViewCell.m */; };
+		9DBEC915248A181F0065362F /* BaseTableViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEC911248A181E0065362F /* BaseTableViewVC.m */; };
+		9DBEC91B248A19000065362F /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEC919248A19000065362F /* UIImage+Extension.m */; };
+		9DBEC91E248A198C0065362F /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEC91C248A198C0065362F /* UIBarButtonItem+Extension.m */; };
+		9DBEC921248A1AD20065362F /* FQTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DBEC91F248A1AD10065362F /* FQTabBar.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D87D62C2489F38C00AAB9FC /* TomatoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TomatoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D8586A2248A1BC300681D87 /* FQNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQNavigationController.h; sourceTree = "<group>"; };
+		9D8586A3248A1BC300681D87 /* FQNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQNavigationController.m; sourceTree = "<group>"; };
+		9D8586A5248A1BD700681D87 /* FQTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQTabBarViewController.h; sourceTree = "<group>"; };
+		9D8586A6248A1BD700681D87 /* FQTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQTabBarViewController.m; sourceTree = "<group>"; };
+		9D8586A8248A1CA500681D87 /* JiChuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiChuVC.h; sourceTree = "<group>"; };
+		9D8586A9248A1CA500681D87 /* JiChuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiChuVC.m; sourceTree = "<group>"; };
+		9D8586AB248A1CC300681D87 /* DemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DemoVC.h; sourceTree = "<group>"; };
+		9D8586AC248A1CC300681D87 /* DemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoVC.m; sourceTree = "<group>"; };
+		9D8586AE248A1CD800681D87 /* GongJuVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GongJuVC.h; sourceTree = "<group>"; };
+		9D8586AF248A1CD800681D87 /* GongJuVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GongJuVC.m; sourceTree = "<group>"; };
+		9D8586B1248A1CEA00681D87 /* GeRenVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GeRenVC.h; sourceTree = "<group>"; };
+		9D8586B2248A1CEA00681D87 /* GeRenVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GeRenVC.m; sourceTree = "<group>"; };
+		9D8586B5248A22C800681D87 /* UIColor+FQAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+FQAdd.m"; sourceTree = "<group>"; };
+		9D8586B6248A22C800681D87 /* UIColor+FQAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+FQAdd.h"; sourceTree = "<group>"; };
+		9D8586B9248A24F400681D87 /* jichu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = jichu.json; sourceTree = "<group>"; };
+		9D8586BB248A272D00681D87 /* DuiXiangBenZhiVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DuiXiangBenZhiVC.h; sourceTree = "<group>"; };
+		9D8586BC248A272D00681D87 /* DuiXiangBenZhiVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuiXiangBenZhiVC.m; sourceTree = "<group>"; };
+		9D8586BE248A29F500681D87 /* NSData+FQAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+FQAdd.h"; sourceTree = "<group>"; };
+		9D8586BF248A29F500681D87 /* NSData+FQAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+FQAdd.m"; sourceTree = "<group>"; };
+		9D8586C1248A2B2400681D87 /* NSObject+FQAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+FQAdd.h"; sourceTree = "<group>"; };
+		9D8586C2248A2B2400681D87 /* NSObject+FQAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+FQAdd.m"; sourceTree = "<group>"; };
+		9D8586C4248A322500681D87 /* JiChuCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JiChuCell.h; sourceTree = "<group>"; };
+		9D8586C5248A322500681D87 /* JiChuCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JiChuCell.m; sourceTree = "<group>"; };
+		9D87D62C2489F38C00AAB9FC /* iOS学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D87D62F2489F38C00AAB9FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D87D6302489F38C00AAB9FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D87D6322489F38C00AAB9FC /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9D87D6332489F38C00AAB9FC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9D87D6352489F38C00AAB9FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9D87D6362489F38C00AAB9FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9D87D6392489F38C00AAB9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,6 +68,21 @@
 		9D87D63E2489F38D00AAB9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9D87D6402489F38D00AAB9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D87D6412489F38D00AAB9FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9D87D652248A077B00AAB9FC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		9D87D653248A077B00AAB9FC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		9D87D655248A115100AAB9FC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		9DBEC90D248A17A40065362F /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		9DBEC90E248A17A40065362F /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		9DBEC910248A181E0065362F /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		9DBEC911248A181E0065362F /* BaseTableViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewVC.m; sourceTree = "<group>"; };
+		9DBEC912248A181E0065362F /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		9DBEC913248A181F0065362F /* BaseTableViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewVC.h; sourceTree = "<group>"; };
+		9DBEC919248A19000065362F /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		9DBEC91A248A19000065362F /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		9DBEC91C248A198C0065362F /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		9DBEC91D248A198C0065362F /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		9DBEC91F248A1AD10065362F /* FQTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQTabBar.m; sourceTree = "<group>"; };
+		9DBEC920248A1AD20065362F /* FQTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQTabBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +96,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D8586B8248A23F800681D87 /* Child */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586BB248A272D00681D87 /* DuiXiangBenZhiVC.h */,
+				9D8586BC248A272D00681D87 /* DuiXiangBenZhiVC.m */,
+			);
+			path = Child;
+			sourceTree = "<group>";
+		};
 		9D87D6232489F38C00AAB9FC = {
 			isa = PBXGroup;
 			children = (
@@ -53,7 +116,7 @@
 		9D87D62D2489F38C00AAB9FC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D87D62C2489F38C00AAB9FC /* TomatoOC.app */,
+				9D87D62C2489F38C00AAB9FC /* iOS学习.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,10 +124,13 @@
 		9D87D62E2489F38C00AAB9FC /* TomatoOC */ = {
 			isa = PBXGroup;
 			children = (
+				9D87D64C2489F94000AAB9FC /* 个人 */,
+				9D87D64B2489F91500AAB9FC /* 工具 */,
+				9D87D64A2489F90500AAB9FC /* Demo */,
+				9D87D6492489F8F900AAB9FC /* 基础 */,
+				9D87D6482489F8EC00AAB9FC /* Base */,
 				9D87D62F2489F38C00AAB9FC /* AppDelegate.h */,
 				9D87D6302489F38C00AAB9FC /* AppDelegate.m */,
-				9D87D6322489F38C00AAB9FC /* SceneDelegate.h */,
-				9D87D6332489F38C00AAB9FC /* SceneDelegate.m */,
 				9D87D6352489F38C00AAB9FC /* ViewController.h */,
 				9D87D6362489F38C00AAB9FC /* ViewController.m */,
 				9D87D6382489F38C00AAB9FC /* Main.storyboard */,
@@ -72,8 +138,96 @@
 				9D87D63D2489F38D00AAB9FC /* LaunchScreen.storyboard */,
 				9D87D6402489F38D00AAB9FC /* Info.plist */,
 				9D87D6412489F38D00AAB9FC /* main.m */,
+				9D87D655248A115100AAB9FC /* PrefixHeader.pch */,
 			);
 			path = TomatoOC;
+			sourceTree = "<group>";
+		};
+		9D87D6482489F8EC00AAB9FC /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				9DBEC912248A181E0065362F /* BaseTableViewCell.h */,
+				9DBEC910248A181E0065362F /* BaseTableViewCell.m */,
+				9DBEC913248A181F0065362F /* BaseTableViewVC.h */,
+				9DBEC911248A181E0065362F /* BaseTableViewVC.m */,
+				9DBEC90E248A17A40065362F /* BaseVC.h */,
+				9DBEC90D248A17A40065362F /* BaseVC.m */,
+				9DBEC903248A160E0065362F /* tabbar */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		9D87D6492489F8F900AAB9FC /* 基础 */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586B8248A23F800681D87 /* Child */,
+				9D8586B9248A24F400681D87 /* jichu.json */,
+				9D8586C4248A322500681D87 /* JiChuCell.h */,
+				9D8586C5248A322500681D87 /* JiChuCell.m */,
+				9D8586A8248A1CA500681D87 /* JiChuVC.h */,
+				9D8586A9248A1CA500681D87 /* JiChuVC.m */,
+			);
+			path = "基础";
+			sourceTree = "<group>";
+		};
+		9D87D64A2489F90500AAB9FC /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586AB248A1CC300681D87 /* DemoVC.h */,
+				9D8586AC248A1CC300681D87 /* DemoVC.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		9D87D64B2489F91500AAB9FC /* 工具 */ = {
+			isa = PBXGroup;
+			children = (
+				9D87D651248A076200AAB9FC /* Category */,
+				9D8586AE248A1CD800681D87 /* GongJuVC.h */,
+				9D8586AF248A1CD800681D87 /* GongJuVC.m */,
+			);
+			path = "工具";
+			sourceTree = "<group>";
+		};
+		9D87D64C2489F94000AAB9FC /* 个人 */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586B1248A1CEA00681D87 /* GeRenVC.h */,
+				9D8586B2248A1CEA00681D87 /* GeRenVC.m */,
+			);
+			path = "个人";
+			sourceTree = "<group>";
+		};
+		9D87D651248A076200AAB9FC /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586B6248A22C800681D87 /* UIColor+FQAdd.h */,
+				9D8586B5248A22C800681D87 /* UIColor+FQAdd.m */,
+				9DBEC91D248A198C0065362F /* UIBarButtonItem+Extension.h */,
+				9DBEC91C248A198C0065362F /* UIBarButtonItem+Extension.m */,
+				9DBEC91A248A19000065362F /* UIImage+Extension.h */,
+				9DBEC919248A19000065362F /* UIImage+Extension.m */,
+				9D87D653248A077B00AAB9FC /* UIView+Extension.h */,
+				9D87D652248A077B00AAB9FC /* UIView+Extension.m */,
+				9D8586BE248A29F500681D87 /* NSData+FQAdd.h */,
+				9D8586BF248A29F500681D87 /* NSData+FQAdd.m */,
+				9D8586C1248A2B2400681D87 /* NSObject+FQAdd.h */,
+				9D8586C2248A2B2400681D87 /* NSObject+FQAdd.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		9DBEC903248A160E0065362F /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586A5248A1BD700681D87 /* FQTabBarViewController.h */,
+				9D8586A6248A1BD700681D87 /* FQTabBarViewController.m */,
+				9D8586A2248A1BC300681D87 /* FQNavigationController.h */,
+				9D8586A3248A1BC300681D87 /* FQNavigationController.m */,
+				9DBEC920248A1AD20065362F /* FQTabBar.h */,
+				9DBEC91F248A1AD10065362F /* FQTabBar.m */,
+			);
+			path = tabbar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -93,7 +247,7 @@
 			);
 			name = TomatoOC;
 			productName = TomatoOC;
-			productReference = 9D87D62C2489F38C00AAB9FC /* TomatoOC.app */;
+			productReference = 9D87D62C2489F38C00AAB9FC /* iOS学习.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -134,6 +288,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D87D63F2489F38D00AAB9FC /* LaunchScreen.storyboard in Resources */,
+				9D8586BA248A24F400681D87 /* jichu.json in Resources */,
 				9D87D63C2489F38D00AAB9FC /* Assets.xcassets in Resources */,
 				9D87D63A2489F38C00AAB9FC /* Main.storyboard in Resources */,
 			);
@@ -146,10 +301,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D8586B7248A22C800681D87 /* UIColor+FQAdd.m in Sources */,
+				9DBEC914248A181F0065362F /* BaseTableViewCell.m in Sources */,
+				9D8586C0248A29F500681D87 /* NSData+FQAdd.m in Sources */,
+				9D87D654248A077B00AAB9FC /* UIView+Extension.m in Sources */,
+				9DBEC91B248A19000065362F /* UIImage+Extension.m in Sources */,
+				9D8586AD248A1CC300681D87 /* DemoVC.m in Sources */,
+				9DBEC90F248A17A50065362F /* BaseVC.m in Sources */,
+				9D8586AA248A1CA500681D87 /* JiChuVC.m in Sources */,
 				9D87D6372489F38C00AAB9FC /* ViewController.m in Sources */,
 				9D87D6312489F38C00AAB9FC /* AppDelegate.m in Sources */,
+				9D8586BD248A272D00681D87 /* DuiXiangBenZhiVC.m in Sources */,
+				9D8586B0248A1CD800681D87 /* GongJuVC.m in Sources */,
+				9DBEC921248A1AD20065362F /* FQTabBar.m in Sources */,
+				9D8586A7248A1BD700681D87 /* FQTabBarViewController.m in Sources */,
+				9D8586C3248A2B2400681D87 /* NSObject+FQAdd.m in Sources */,
+				9D8586C6248A322500681D87 /* JiChuCell.m in Sources */,
 				9D87D6422489F38D00AAB9FC /* main.m in Sources */,
-				9D87D6342489F38C00AAB9FC /* SceneDelegate.m in Sources */,
+				9D8586B3248A1CEA00681D87 /* GeRenVC.m in Sources */,
+				9DBEC91E248A198C0065362F /* UIBarButtonItem+Extension.m in Sources */,
+				9D8586A4248A1BC300681D87 /* FQNavigationController.m in Sources */,
+				9DBEC915248A181F0065362F /* BaseTableViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,10 +460,10 @@
 		9D87D6462489F38D00AAB9FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = JE9X9ZZ2LL;
+				GCC_PREFIX_HEADER = TomatoOC/PrefixHeader.pch;
 				INFOPLIST_FILE = TomatoOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,7 +471,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = master.TomatoOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS学习";
 				PROVISIONING_PROFILE_SPECIFIER = "20200514*dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,10 +480,10 @@
 		9D87D6472489F38D00AAB9FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = JE9X9ZZ2LL;
+				GCC_PREFIX_HEADER = TomatoOC/PrefixHeader.pch;
 				INFOPLIST_FILE = TomatoOC/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = master.TomatoOC;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "iOS学习";
 				PROVISIONING_PROFILE_SPECIFIER = "20200514*dev";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

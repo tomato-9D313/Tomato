@@ -1,21 +1,22 @@
 //
-//  ViewController.m
+//  DuiXiangBenZhiVC.m
 //  TomatoOC
 //
 //  Created by 123 on 2020/6/5.
 //  Copyright © 2020 master. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "DuiXiangBenZhiVC.h"
 
-@interface ViewController ()
+@interface DuiXiangBenZhiVC ()
 
 @end
 
-@implementation ViewController
+@implementation DuiXiangBenZhiVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+  
 }
 
 
