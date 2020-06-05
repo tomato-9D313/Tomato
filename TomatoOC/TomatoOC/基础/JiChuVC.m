@@ -8,6 +8,7 @@
 
 #import "JiChuVC.h"
 #import "JiChuCell.h"
+#import "PageVC.h"
 
 @interface JiChuVC ()
 
@@ -50,5 +51,13 @@
     return jcCell;
 }
 
+-(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    NSDictionary *dic = self.dataArr[indexPath.row];
+    PageVC *pageVC = [[PageVC alloc] setUpWithHttpSting:dic[@"pageUrl"]];
+    pageVC.title = dic[@"title"];
+    [self.navigationController pushViewController:pageVC animated:YES];
+   
+}
 
 @end

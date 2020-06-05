@@ -51,7 +51,7 @@
         // 隐藏tabbar
         viewController.hidesBottomBarWhenPushed = YES;
         
-        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem CreateItemWithTarget:self ForAction:@selector(back) WithImage:@"header_back_icon" WithHighlightImage:@"header_back_icon_highlight"];
+        viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem CreateItemWithTarget:self ForAction:@selector(back) WithImage:@"nav_back_n" WithHighlightImage:@"nav_back_h"];
        
     }
     [super pushViewController:viewController animated:animated];
