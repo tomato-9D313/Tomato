@@ -53,11 +53,24 @@
 
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
 
+    
     NSDictionary *dic = self.dataArr[indexPath.row];
-    PageVC *pageVC = [[PageVC alloc] setUpWithHttpSting:dic[@"pageUrl"]];
-    pageVC.title = dic[@"title"];
-    [self.navigationController pushViewController:pageVC animated:YES];
-   
+    NSString *secondVCStr = dic[@"secondVC"];
+    NSString *pageUrl  = dic[@"pageUrl"];
+    NSString *title = dic[@"title"];
+    if ([secondVCStr isEqualToString:@""]) {
+        
+        PageVC *pageVC = [[PageVC alloc] setUpWithHttpSting:pageUrl];
+        pageVC.title = title;
+        [self.navigationController pushViewController:pageVC animated:YES];
+        
+    }else{
+        
+        UIViewController *secondVC  =[[NSClassFromString(secondVCStr) alloc] init];
+        secondVC.title = title;
+        [self.navigationController pushViewController:secondVC animated:YES];
+    }
+    
 }
 
 @end

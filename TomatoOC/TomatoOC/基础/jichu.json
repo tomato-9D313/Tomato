@@ -3,12 +3,14 @@
             {
                 "title": "OC对象的本质",
                 "className": "DuiXiangBenZhiVC",
-                "pageUrl": "https://www.jianshu.com/p/10a2966a7898"
+                "pageUrl": "https://www.jianshu.com/p/10a2966a7898",
+                "secondVC": ""
             },
             {
-                "title": "OC对象的本质",
-                "className": "DuiXiangBenZhiVC",
-                "pageUrl": "https://www.jianshu.com/p/10a2966a7898"
+                "title": "KVO",
+                "className": "KVOStudyVC",
+                "pageUrl": "https://www.jianshu.com/p/d99bc6f65010",
+                "secondVC": "KVOStudyVC"
             }
         ],
        "title": "基础"
