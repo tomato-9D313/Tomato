@@ -10,4 +10,11 @@
 
 @implementation XiaoMing
 
+
+-(void)setAge:(int)age{
+    
+    _age = age;
+}
+
+
 @end
