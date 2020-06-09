@@ -22,6 +22,7 @@
 		9D8586CB248A361800681D87 /* PageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586CA248A361800681D87 /* PageVC.m */; };
 		9D8586D0248B339300681D87 /* KVOStudyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586CF248B339300681D87 /* KVOStudyVC.m */; };
 		9D8586D4248B3AC700681D87 /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586D3248B3AC700681D87 /* XiaoMing.m */; };
+		9D8586D9248F881600681D87 /* KVCStudyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8586D8248F881600681D87 /* KVCStudyVC.m */; };
 		9D87D6312489F38C00AAB9FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D6302489F38C00AAB9FC /* AppDelegate.m */; };
 		9D87D6372489F38C00AAB9FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D87D6362489F38C00AAB9FC /* ViewController.m */; };
 		9D87D63A2489F38C00AAB9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D87D6382489F38C00AAB9FC /* Main.storyboard */; };
@@ -67,6 +68,8 @@
 		9D8586CF248B339300681D87 /* KVOStudyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVOStudyVC.m; sourceTree = "<group>"; };
 		9D8586D2248B3AC700681D87 /* XiaoMing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMing.h; sourceTree = "<group>"; };
 		9D8586D3248B3AC700681D87 /* XiaoMing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMing.m; sourceTree = "<group>"; };
+		9D8586D7248F881600681D87 /* KVCStudyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KVCStudyVC.h; sourceTree = "<group>"; };
+		9D8586D8248F881600681D87 /* KVCStudyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KVCStudyVC.m; sourceTree = "<group>"; };
 		9D87D62C2489F38C00AAB9FC /* iOS学习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS学习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D87D62F2489F38C00AAB9FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D87D6302489F38C00AAB9FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 		9D8586B8248A23F800681D87 /* Child */ = {
 			isa = PBXGroup;
 			children = (
+				9D8586D6248F87D200681D87 /* KVC */,
 				9D8586D1248B33A600681D87 /* OC本质 */,
 				9D8586CD248B336D00681D87 /* KVO */,
 			);
@@ -141,6 +145,15 @@
 				9D8586BC248A272D00681D87 /* DuiXiangBenZhiVC.m */,
 			);
 			path = "OC本质";
+			sourceTree = "<group>";
+		};
+		9D8586D6248F87D200681D87 /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				9D8586D7248F881600681D87 /* KVCStudyVC.h */,
+				9D8586D8248F881600681D87 /* KVCStudyVC.m */,
+			);
+			path = KVC;
 			sourceTree = "<group>";
 		};
 		9D87D6232489F38C00AAB9FC = {
@@ -347,6 +360,7 @@
 				9DBEC91B248A19000065362F /* UIImage+Extension.m in Sources */,
 				9D8586AD248A1CC300681D87 /* DemoVC.m in Sources */,
 				9D8586D0248B339300681D87 /* KVOStudyVC.m in Sources */,
+				9D8586D9248F881600681D87 /* KVCStudyVC.m in Sources */,
 				9DBEC90F248A17A50065362F /* BaseVC.m in Sources */,
 				9D8586AA248A1CA500681D87 /* JiChuVC.m in Sources */,
 				9D8586D4248B3AC700681D87 /* XiaoMing.m in Sources */,

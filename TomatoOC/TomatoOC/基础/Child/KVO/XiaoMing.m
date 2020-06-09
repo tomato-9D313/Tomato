@@ -11,10 +11,25 @@
 @implementation XiaoMing
 
 
--(void)setAge:(int)age{
-    
-    _age = age;
-}
+//-(void)setAge:(int)age{
+//
+//    _age = age;
+//    NSLog(@"setAge");
+//}
+//
+//-(void)willChangeValueForKey:(NSString *)key{
+//
+//    [super willChangeValueForKey:key];//为了干扰以前的实现，调用super
+//    NSLog(@"willChangeValueForKey");
+//}
+//
+//-(void)didChangeValueForKey:(NSString *)key{
+//
+//    NSLog(@"didChangeValueForKey-开始");
+//    [super didChangeValueForKey:key];
+//    NSLog(@"didChangeValueForKey-结束");
+//}
+
 
 
 @end
