@@ -17,6 +17,12 @@
                 "className": "KVCStudyVC",
                 "pageUrl": "https://www.jianshu.com/p/88cc1f59e059",
                 "secondVC": "KVCStudyVC"
+            },
+            {
+                "title": "Category-分类",
+                "className": "CategoryVC",
+                "pageUrl": "",
+                "secondVC": "CategoryVC"
             }
             
         ],
